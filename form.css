@@ -1,0 +1,40 @@
+body{
+    background-image: url(./anders-jilden-cYrMQA7a3Wc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    text-align: center;
+}
+div{
+    width: 75%;
+    height: 100%;
+    background-color:aliceblue;
+    padding: 50px 50px;
+    margin: 50px 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+/* label{
+    float: right;
+} */
+.c1{
+    float: right;
+}
+.i2{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+textarea{
+    width: 156px;
+    height: 60px;
+}
+#i1{
+    background-color: cadetblue;
+    color: white;
+    margin-left: 425px;
+    border: 1px solid black;
+    border-radius: 5px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Suvery Form</h1>
+    <form action="out.html" enctype="multipart/form-data">
+    <div>
+        <table>
+            <tr>
+                <td><label class="c1">Name :</label></td>
+                <td><input class="i2" type="text" name="name" id="" required></td>
+            </tr>
+            <tr>
+                <td><label class="c1">Email :</label></td>
+                <td><input class="i2"type="email" name="name" id="" required></td>
+            </tr> 
+            <tr>
+                <td><label class="c1">Age :</label></td>
+                <td><input class="i2"type="number" name="name" id="" required></td>
+            </tr> 
+            <tr>
+                <td></td>
+                <td><input type="file"></td>
+            </tr> 
+            <tr>
+                <td><label >Which option best describes your current role</label></td>
+                <td>
+                    <select class="i2" name="" id="">
+                        <option value=""selcted >---Select---</option>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                    </select>
+                </td>
+            </tr> 
+            <tr>
+                <td><label for="">How likely will you recommend this program to others</label></td>
+                <td>
+                    <input type="radio" name="recommend" value="Definitely">
+                    <label class="l1">Definitely</label><br>
+                    <input type="radio" name="recommend" value="Maybe">
+                    <label class="l1">Maybe</label><br>
+                    <input type="radio" name="recommend" value="Not sure">
+                    <label class="l1">Not Sure</label><br>
+                </td>
+            </tr> 
+            <tr>
+                <td><label >What do you like most here</label></td>
+                <td>
+                    <select  class="i2" name="" id="">
+                        <option value=""selcted >---Select---</option>
+                        <option value="Community">Community</option>
+                        <option value="Placements">Placements</option>
+                        
+                    </select>
+                </td>
+            </tr> 
+             <tr>
+                <td><label for="">Things that should be improved in the future(check all that apply)</label></td>
+                <td>
+                    <input type="checkbox" name="recommend" value="Front end projects">
+                    <label class="l1">Front end Projects</label><br>
+                    <input type="checkbox" name="recommend" value="Back end projects">
+                    <label class="l1">Back end projects</label><br>
+                    <input type="checkbox" name="recommend" value="Data Visualization">
+                    <label class="l1">Data Visualization</label><br>
+                </td>
+            </tr> 
+            <tr>
+                <td><label  for="">Any comments or suggestions</label></td>
+                <td>
+                    <textarea  class="i2" cols="10" rows="5 "></textarea>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <input  id="i1" type="submit">
+    </form>
+    </div>
+</body>
+</html>
